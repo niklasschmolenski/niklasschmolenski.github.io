@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Niklas Schmolenski Portfolio</title>
+  <desc id="desc">Machine Learning Engineer portfolio featuring projects such as cvchecked.com.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect x="86" y="108" width="220" height="6" fill="url(#accent)" rx="3" />
+  <text x="86" y="188" fill="#e2e8f0" font-size="38" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="500">
+    Niklas Schmolenski
+  </text>
+  <text x="86" y="252" fill="#f8fafc" font-size="66" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="700">
+    Machine Learning Engineer
+  </text>
+  <text x="86" y="320" fill="#93c5fd" font-size="34" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="500">
+    TU Berlin · Adobe · Fraunhofer HHI
+  </text>
+  <text x="86" y="390" fill="#cbd5e1" font-size="30" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="400">
+    Projects include:
+  </text>
+  <text x="86" y="448" fill="#7dd3fc" font-size="36" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="700">
+    cvchecked.com
+  </text>
+  <text x="86" y="510" fill="#cbd5e1" font-size="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="400">
+    AI-assisted ATS resume feedback platform
+  </text>
+</svg>

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Impressum | Niklas Schmolenski</title>
+    <meta
+      name="description"
+      content="Impressum von Niklas Schmolenski gemäß § 5 DDG und § 18 MStV."
+    />
+    <meta name="robots" content="noindex,follow" />
+    <link rel="canonical" href="https://niklasschmolenski.github.io/impressum.html" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --background: hsl(0 0% 98%);
+        --foreground: hsl(0 0% 8%);
+        --card: hsl(0 0% 100%);
+        --muted-foreground: hsl(0 0% 40%);
+        --border: hsl(0 0% 88%);
+        --accent: hsl(230 60% 55%);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background: hsl(0 0% 0%);
+          --foreground: hsl(0 0% 98%);
+          --card: hsl(0 0% 6%);
+          --muted-foreground: hsl(0 0% 55%);
+          --border: hsl(0 0% 15%);
+          --accent: hsl(230 60% 60%);
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.7;
+        background:
+          radial-gradient(1200px 600px at 100% -10%, color-mix(in oklab, var(--accent) 14%, transparent), transparent 65%),
+          radial-gradient(1000px 500px at -10% 20%, color-mix(in oklab, var(--foreground) 6%, transparent), transparent 70%),
+          var(--background);
+        color: var(--foreground);
+        min-height: 100vh;
+      }
+      .nav-wrap {
+        position: fixed;
+        inset: 0 0 auto 0;
+        z-index: 30;
+        padding: 16px 24px;
+      }
+      .nav {
+        max-width: 960px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid color-mix(in oklab, var(--border) 80%, transparent);
+        background: color-mix(in oklab, var(--background) 84%, transparent);
+        backdrop-filter: blur(10px);
+        border-radius: 16px;
+        padding: 10px 14px;
+      }
+      .brand {
+        color: var(--foreground);
+        text-decoration: none;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+      }
+      .nav-links {
+        display: flex;
+        gap: 16px;
+      }
+      .nav-links a {
+        color: var(--muted-foreground);
+        font-size: 0.9rem;
+        text-decoration: none;
+      }
+      .nav-links a:hover {
+        color: var(--foreground);
+      }
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 120px 24px 72px;
+      }
+      h1, h2 {
+        line-height: 1.2;
+      }
+      h1 {
+        margin: 0 0 10px;
+        font-size: clamp(2rem, 3.7vw, 2.8rem);
+        letter-spacing: -0.02em;
+      }
+      .subtitle {
+        color: var(--muted-foreground);
+        margin: 0 0 28px;
+      }
+      p {
+        margin: 7px 0;
+      }
+      .card {
+        background: color-mix(in oklab, var(--card) 90%, transparent);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 24px;
+        max-width: 740px;
+      }
+      .eyebrow {
+        color: var(--accent);
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        font-size: 0.72rem;
+        font-weight: 600;
+        margin: 0 0 12px;
+      }
+      a {
+        color: var(--foreground);
+      }
+      @media (max-width: 640px) {
+        .nav-wrap {
+          padding: 14px 16px;
+        }
+        main {
+          padding: 104px 16px 56px;
+        }
+        .card {
+          padding: 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-wrap">
+      <div class="nav">
+        <a class="brand" href="/">NS</a>
+        <div class="nav-links">
+          <a href="/">Startseite</a>
+          <a href="/datenschutz.html">Datenschutz</a>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <p class="eyebrow">Legal</p>
+      <h1>Impressum</h1>
+      <p class="subtitle">Angaben gemäß § 5 DDG</p>
+      <div class="card">
+        <p>Niklas Schmolenski</p>
+        <p>Nollendorfstraße 21A</p>
+        <p>10777 Berlin</p>
+        <p>Deutschland</p>
+        <p>E-Mail: <a href="mailto:niklas.schmolenski@outlook.com">niklas.schmolenski@outlook.com</a></p>
+      </div>
+    </main>
+  </body>
+</html>

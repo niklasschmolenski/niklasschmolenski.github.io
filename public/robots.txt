@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://niklasschmolenski.github.io/sitemap.xml

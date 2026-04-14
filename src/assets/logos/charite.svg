@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <g fill="none" stroke-linecap="butt" stroke-linejoin="miter">
+    <!-- Outer C -->
+    <path d="M 301.0 116.1
+             A 130 130 0 1 0 301.0 283.9"
+          stroke="#8B959D"
+          stroke-width="18"/>
+
+    <!-- Inner c -->
+    <path d="M 241.7 162.8
+             A 52 52 0 1 0 241.7 237.2"
+          stroke="#111111"
+          stroke-width="12"/>
+  </g>
+</svg>
