@@ -1,6 +1,6 @@
 # Niklas Schmolenski Portfolio
 
-Personal website and portfolio.
+Personal website.
 
 Live: [niklasschmolenski.github.io](https://niklasschmolenski.github.io/)
 
